@@ -1,0 +1,35 @@
+{
+  "name": "svelte-overlap",
+  "version": "0.1.0",
+  "description": "Svelte actions and utilities around IntersectionObserver",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bltgv/svelte-overlap.git"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": "Casey Benko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bltgv/svelte-overlap/issues"
+  },
+  "homepage": "https://github.com/bltgv/svelte-overlap#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "intersection-observer": "^0.7.0"
+  }
+}
